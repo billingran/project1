@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+header section.backgroundimage {
+  background-image: url(../pics/beach.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+}
+header section.backgroundimage section.content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+header section.backgroundimage section.content1 section.icons {
+  width: 25%;
+  margin: 1rem auto 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+header section.backgroundimage section.content1 section.icons a img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+header section.backgroundimage section.title {
+  background-color: rgba(255, 153, 0, 0.5);
+  display: flex;
+  align-items: center;
+  width: 70%;
+  flex-wrap: wrap;
+}
+header section.backgroundimage section.title section.wholetitle {
+  display: flex;
+  align-items: center;
+  flex: 2 1 300px;
+}
+header section.backgroundimage section.title section.wholetitle div.titleimage {
+  display: flex;
+  align-items: center;
+}
+header section.backgroundimage section.title section.wholetitle div.titleimage img {
+  width: 6vw;
+  height: 6vw;
+  background-color: rgb(0, 199, 192);
+  margin-right: 0.5rem;
+}
+header section.backgroundimage section.title section.wholetitle div.titleimage h1 {
+  font-size: 1.5rem;
+}
+header section.backgroundimage section.title section.titlespace {
+  display: flex;
+  align-items: center;
+  flex: 5 1 300px;
+}
+header section.backgroundimage section.title section.titlespace nav {
+  width: 100%;
+}
+header section.backgroundimage section.title section.titlespace nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+header section.backgroundimage section.title section.titlespace nav ul li a.pointer {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+header section.backgroundimage section.title section.titlespace nav ul li a.pointer1 {
+  color: aqua;
+}
+header section.backgroundimage section.title section.titlespace nav ul li a.pointer:hover {
+  color: aqua;
+}
+header section.backgroundimage section.startswitch {
+  margin: 7.5% auto;
+}
+header section.backgroundimage section.startswitch h3 {
+  border-bottom: 3px rgb(255, 255, 255) solid;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+header section.backgroundimage section.startswitch p {
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 300;
+  word-spacing: 0.5rem;
+}
+header section.backgroundimage section.startswitch button {
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgba(0, 199, 192, 0.8);
+  color: white;
+  border-radius: 100%;
+}
+
+main {
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+}
+main div.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main div.content2 section.backgrounddot {
+  margin-top: 0.5rem;
+  display: flex;
+}
+main div.content2 section.backgrounddot div.dot1 {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(107, 107, 107);
+  border-radius: 100%;
+}
+main div.content2 section.backgrounddot div.dot2 {
+  width: 2%;
+  width: 6px;
+  height: 6px;
+  background-color: rgb(175, 175, 175);
+  border-radius: 100%;
+  margin: 0 0.5rem;
+}
+main div.content2 section.backgrounddot div.dot3 {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(175, 175, 175);
+  border-radius: 100%;
+}
+main div.content2 section.phrase {
+  margin: 3% auto 2%;
+}
+main div.content2 section.phrase h1 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.2rem;
+  font-size: 1.3rem;
+}
+main div.content2 section.phrase p {
+  padding-top: 0.2rem;
+  color: gray;
+  font-size: 0.7rem;
+}
+main div.content2 section.blockbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+  min-height: 18vh;
+}
+main div.content2 section.blockbox div.box1 {
+  width: 13vw;
+  height: 13vw;
+  background-color: rgba(0, 199, 192, 0.8);
+  position: relative;
+}
+main div.content2 section.blockbox div.box1 img {
+  width: 2vw;
+  height: 2vw;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+main div.content2 section.blockbox div.box2 {
+  width: 13vw;
+  height: 13vw;
+  background-color: rgb(175, 175, 175);
+  position: relative;
+}
+main div.content2 section.blockbox div.box2 img {
+  width: 2vw;
+  height: 2vw;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+main div.content2 section.blockbox div.box3 {
+  width: 13vw;
+  height: 13vw;
+  background-color: rgb(255, 153, 0);
+  position: relative;
+}
+main div.content2 section.blockbox div.box3 img {
+  width: 2vw;
+  height: 2vw;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+main div.content2 section.blockbox div.box4 {
+  width: 13vw;
+  height: 13vw;
+  background-color: rgb(205, 123, 0);
+  position: relative;
+}
+main div.content2 section.blockbox div.box4 img {
+  width: 2vw;
+  height: 2vw;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+main div.content2 section.phrase2 {
+  margin: 2.5% auto;
+}
+main div.content2 section.phrase2 h1 {
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid gray;
+  font-size: 1.3rem;
+}
+main div.content2 section.phrase2 p {
+  padding-top: 0.2rem;
+  color: gray;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 500px) {
+  section.backgroundimage section.content1 section.icons a img {
+    width: 0.5vw;
+    height: 0.5vw;
+  }
+  section.backgroundimage section.content1 section.title section.wholetitle div.titleimage img {
+    width: 15vw;
+    height: 15vw;
+  }
+  section.backgroundimage section.content1 section.title section.titlespace nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
